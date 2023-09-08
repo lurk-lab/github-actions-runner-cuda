@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: cuda
+    upstream: myoung34:master
+    mergeMethod: rebase
